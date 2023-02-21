@@ -23,7 +23,7 @@ export default function Signup() {
 
   const signupUser = async () => {
     try {
-      const {data} = await Axios.post('http://192.168.1.4/api/signup.php', {
+      const {data} = await Axios.post('http://192.168.1.2 /api/signup.php', {
         email: email,
         password: password,
       });

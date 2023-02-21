@@ -25,7 +25,7 @@ export default function Login() {
 
   const loginUser = async () => {
     try {
-      const {data} = await Axios.post('http://192.168.1.4/api/login.php', {
+      const {data} = await Axios.post('http://192.168.1.2/api/login.php', {
         email: email,
         password: password,
       });
